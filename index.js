@@ -23,7 +23,9 @@ app.listen(PORT, () => {
 
 })
 app.get("/", (req, res) => {
-    res.send("Welcome to Task Management Application.....")
+    res.send("Welcome to Task Management Application.....",
+        "getting for all Api checking my git repository : https://github.com/boradkrutil/Task_Management_App/tree/main/routes"  
+    )
 })
 app.use("/api", router)
 

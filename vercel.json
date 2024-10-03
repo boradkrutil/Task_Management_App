@@ -1,5 +1,4 @@
 {
     "builds":[{"src":"./app.js", "use":"@vercel/node" }],
-    "routes":[{"src":"/","dest":"/"}],
-    "rewrites":[{"src":"/(.*)","dest":"/"}]
+    "routes":[{"src":"/","dest":"/"}]
 }
